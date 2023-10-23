@@ -18,25 +18,32 @@
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
     
-    .div1 { grid-area: 1 / 1 / 6 / 6; }
-    .div2 { grid-area: 3 / 4 / 5 / 6; }
+    .div1 { grid-area: 1 / 1 / 6 / 5; }
+    .div2 { grid-area: 1 / 2 / 2 / 4; }
     .div3 { grid-area: 2 / 1 / 4 / 3; }
-    .happy { grid-area: 1 / 2 / 2 / 5; }
-    .div5 { grid-area: 5 / 2 / 6 / 5; }
-
-    .happy{
+    .div4 { grid-area: 3 / 3 / 5 / 5; }
+    .div5 { grid-area: 5 / 2 / 6 / 4; }
+    
+    .div1{
         display: flex;
-        background-image: url("./311015.jpg");
+        background-image: url(./logo6.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 750px;
-        height: 200px;
-        
-    
+        width: 1879px;
+        height: 2740px;
+
+    }
+    .div2{
+        display: flex;
+        background-image: url(./1342421018_47272.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 713px;
+        height: 437px;
     }
