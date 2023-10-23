@@ -38,15 +38,22 @@
         background-image: url("./311015.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 750px;
-        height: 200px;
-        
+        width: 913px;
+        height: 237px;
+        margin-left: 150px;
+        border-radius: 100px;
+        margin-top: 10px;
+        justify-content: center;
     
     }
     .div3{
         display: flex;
-        width: auto;
-        height: 200px;
+        background-image: url(./logo10.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 250px;
+        
     }
  
    
@@ -54,7 +61,8 @@
             background-image: url("./fairy\ tail\ accueil.png");
             background-repeat: no-repeat;
             background-size: cover;
-           
+           width: 1908px;
+           height: 1150px;
           
             
             
@@ -67,8 +75,12 @@
             background-image: url("./fond3.jpg");
             background-repeat: no-repeat;
             background-size: cover;
-            height:100%;
+            width: 1908px;
+            height:1150px;
         
+        }
+        p{
+            font-size: 40px;
         }
         
     
