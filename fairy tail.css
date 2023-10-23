@@ -51,21 +51,25 @@
  
    
         .div1{
-            background-image: url("./fairy\ tail\ accueil.jpg");
+            background-image: url("./fairy\ tail\ accueil.png");
             background-repeat: no-repeat;
             background-size: cover;
-            
-            height: 200%
+           
+          
             
             
         }
+
+
+
 
         .div2{
             background-image: url("./fond3.jpg");
             background-repeat: no-repeat;
             background-size: cover;
-            height: 100%;
+            height:100%;
         
         }
+        
     
     
