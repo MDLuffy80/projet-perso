@@ -31,7 +31,7 @@
     .jose { grid-area: 4 / 1 / 5 / 2; }
     .achnologia { grid-area: 2 / 5 / 3 / 6; }
     .zeleph { grid-area: 4 / 5 / 5 / 6; }
-    .footer { grid-area: 5 / 2 / 6 / 5; }
+    .footer2 { grid-area: 5 / 2 / 6 / 5; }
 
     .fond2{
         display: flex;
@@ -41,6 +41,7 @@
         width: 1900px;
         height: 3500px;
     }
+    
     .happy2{
         display: flex;
         background-image: url(./LOGO\ HEADER.png);
@@ -50,7 +51,7 @@
         width: 770px;
         height: 337px;
         justify-content:center ;
-        margin-left: -500px;
+        
     }
 
     .logo2{
@@ -63,6 +64,7 @@
         height: 405px;
         
     }
+
     .jellal{
         display: flex;
         background-image: url(./jellal-removebg-preview.png);
@@ -71,6 +73,7 @@
         width: 400px;
         height: 500px;
     }
+
     .jose{
         display: flex;
         background-image: url(./josé.png);
@@ -89,6 +92,7 @@
          height: 600px;
          margin-left: -300px;
     }
+
     .zeleph{
         display: flex;
         background-image: url(./zeleph.webp);
@@ -99,6 +103,7 @@
         height: 400px;
 
     }
+
     .footer2{
         display: flex;
         background-image: url(./LOGO\ FOOTER.png);
@@ -106,5 +111,5 @@
         background-size: cover;
         width: 1080px;
         height: 400px;
-        margin-bottom: 400px;
+        margin-top: 70PX;
     }
