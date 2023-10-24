@@ -21,7 +21,7 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 10px;
+    grid-row-gap: 20px;
     }
     
     .fond3 { grid-area: 1 / 1 / 6 / 6; }
@@ -46,10 +46,66 @@
 
     .logo2{
         display: flex;
-        background-image: url(./logo-removebg-preview.png);
-        background-size: cover;
+        background-image: url(logo-removebg-preview.png);
         background-repeat: no-repeat;
-        height: 350px;
+        background-size: cover;
+        height: 350px; 
         margin-top: 100px;
 
+    }
+
+    .anos{
+         display: flex;
+         background-image: url(./Anosimg.webp);
+         background-size: cover;
+         
+
+    }
+
+    .misha{
+          display: flex;
+          background-image: url(./Misha_Necron_Infobox.webp);
+          background-size: cover;
+        
+
+    }
+
+    .foter{
+          display: flex;
+          background-image: url(./fond3.jpg);
+          background-size: cover;
+          border-radius: 200px;
+    }
+
+    .embleme{
+          display: flex;
+          background-image: url(./logo-removebg-preview.png);
+          background-size: cover;
+          height: 350px;
+    }
+
+    .sasha{
+          display: flex;
+          background-image: url(./sasha.webp);
+          background-size: cover;
+
+    }
+
+    .kanon{
+          display: flex;
+          background-image: url(kanon.png);
+          background-size: cover;
+
+    }
+
+    .hader{
+          display: flex;
+          background-image: url(./fond3.jpg);
+          background-size: cover;
+          border-radius: 200px;
+    }
+
+    p{
+        font-size: 30px;
+        border-top: 50px;
     }
