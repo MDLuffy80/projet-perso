@@ -47,9 +47,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin-left: 100PX;
-        width: 770px;
-        height: 337px;
+        width: 550px;
+        height: 237px;
         justify-content:center ;
+        margin-top: 100px;
     }
 
     .logo{
@@ -110,4 +111,7 @@
         width: 1080px;
         height: 400px;
         margin-top: 70PX;
+    }
+    p{
+        font-size: 40px;
     }

@@ -41,7 +41,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         width: 1908px;
-        height: 2507px;
+        height: 4000px;
     }
 
     .logo2{
@@ -58,6 +58,8 @@
          display: flex;
          background-image: url(./Anosimg.webp);
          background-size: cover;
+         width: 500px;
+         height: 500px;
          
 
     }
@@ -66,6 +68,8 @@
           display: flex;
           background-image: url(./Misha_Necron_Infobox.webp);
           background-size: cover;
+          height: 500px;
+          width: 500px;
         
 
     }
@@ -75,19 +79,25 @@
           background-image: url(./fond3.jpg);
           background-size: cover;
           border-radius: 200px;
+          width: 1100px;
+          height: 437px;
+          margin-top: -200px;
     }
 
     .embleme{
           display: flex;
           background-image: url(./logo-removebg-preview.png);
           background-size: cover;
-          height: 350px;
+          height: 500px;
+          margin-top: -200px;
     }
 
     .sasha{
           display: flex;
           background-image: url(./sasha.webp);
           background-size: cover;
+          width: 500px;
+          height: 500px;
 
     }
 
@@ -95,6 +105,8 @@
           display: flex;
           background-image: url(kanon.png);
           background-size: cover;
+          width: 500px;
+          height: 500px;
 
     }
 
@@ -103,9 +115,16 @@
           background-image: url(./fond3.jpg);
           background-size: cover;
           border-radius: 200px;
+          justify-content: center;
+          width: 1100px;
+          height: 437px;
+          margin-top: 100px;
+          
+          
+
     }
 
     p{
-        font-size: 30px;
+        font-size: 40px;
         
     }
