@@ -41,13 +41,14 @@
     }
     .div2{
         display: flex;
-        background-image: url(./LOGO\ HEADER.png);
+        background-image: url(./happy5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         margin-left: 100PX;
         width: 550px;
         height: 237px;
         justify-content:center ;
+    
     }
     p{
         font-size: 40px;
@@ -64,6 +65,88 @@
         width: 1080px;
         height: 400px;
         margin-top: 70PX;
+    }
+    .div2 p{
+        align-self: center;
+        color:black ;
+        
+    }
+    nav{
+        width: 100%;
+        margin: 0 auto;
+        position: sticky;
+        top: 0px;
+    }
+    
+    nav ul{
+        list-style-type: none;
+    }
+    
+    nav ul li{
+        float: left;
+        width: 35%;
+        text-align: center;
+        position: relative;
+    }
+    
+    nav ul::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    nav a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        border-bottom: 2px solid transparent;
+        padding-top: 180px ;
+        padding-left: 0px;
+    }
+    
+    nav a:hover{
+        color: rgb(5, 5, 5);
+        border-bottom: 2px solid rgb(253, 253, 252);
+    }
+    
+  
+    
+    .sous{    
+        display: none;
+        box-shadow: 0px 1px 2px #CCC;
+        background-color: white ;
+        opacity: 70%;
+        position: absolute;
+        width: 100%;
+        z-index: 1000; 
+    }
+    
+    
+    
+    nav > ul li:hover .sous{
+        display: block;
+    }
+    .sous li{
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+    .sous a{
+        padding: 10px;
+        border-bottom: none;
+    }
+    .sous a:hover{
+        border-bottom: none;
+        background-color: RGBa(200,200,200,0.1);
+    }
+    .deroulant > a::after{   
+        content:"▼";
+        font-size: 12px;
+    }
+    
+    .conteneur{
+      margin: 50px 20px;
+      height: 1500px;
     }
 
     
